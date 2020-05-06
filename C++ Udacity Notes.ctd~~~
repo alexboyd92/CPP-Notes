@@ -1,0 +1,294 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<bookmarks list="6"/>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Intro" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588689397.15" ts_lastsave="1588690775.61" unique_id="1">
+		<rich_text></rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Why" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588689610.9" ts_lastsave="1588690090.08" unique_id="3">
+			<rich_text>Used in variety of feilds 
+Data science 
+Has a lot of features
+Can be used high level or low level 
+
+</rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Where" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588689685.69" ts_lastsave="1588689710.13" unique_id="4">
+				<rich_text>Cameras,telecsopes,networking,games,finace,cars
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="What is C++?" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588689492.6" ts_lastsave="1588698119.39" unique_id="2">
+				<rich_text>Self deffinition: C with objects
+Instructior deffinition: Programing language primary used for  programs that are demand speed and performance
+</rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Book rec" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588690028.09" ts_lastsave="1588691687.74" unique_id="6">
+			<rich_text>
+</rich_text>
+			<rich_text scale="h3">The C++ Programming Language: 4th Edition</rich_text>
+			<rich_text> *(probably what i need)
+Programing Principles and practice using C++ (novice)
+Effective Modern C++
+</rich_text>
+		</node>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Program Structure" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588690190.9" ts_lastsave="1588692393.0" unique_id="7">
+		<rich_text>Two parts preproccessor and main
+
+
+
+ #include &lt;iostream&gt; ← preprocessor 
+
+  int main() 
+ {
+      std::cout &lt;&lt; &quot;Hello world, I am ready for C++&quot;;
+      return 0;
+  }
+</rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Preprocessor directives" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588690359.27" ts_lastsave="1588690391.78" unique_id="8">
+			<rich_text>
+Any line with # is a preprocer
+#include &lt;Iostream&gt;    
+brackets say look in the directory where the standard libraries are kept 
+“” mean look in current directory then in standard libraries </rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Main" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588690404.11" ts_lastsave="1588691231.19" unique_id="9">
+			<rich_text>Main body of code is a function like other langugages
+main function has to return something so usualy int. Probably 0 1 like normal for success/fail
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Compile" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588692398.88" ts_lastsave="1588692819.78" unique_id="21">
+			<rich_text>g++ main.ccp -o main.out
+g++ is compiler
+main.ccp filename
+-o outputflag like c 
+</rich_text>
+		</node>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Syntax" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588690592.65" ts_lastsave="1588695767.15" unique_id="10">
+		<rich_text>
+</rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="I/O" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588692214.87" ts_lastsave="1588696986.38" unique_id="18">
+			<rich_text>
+
+
+</rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Printing" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588696826.15" ts_lastsave="1588696942.6" unique_id="35">
+				<rich_text foreground="#ffff00000000" scale="h2" weight="heavy">Printing to the console</rich_text>
+				<rich_text>
+#include &lt;iostream&gt;
+std::cout &lt;&lt;&quot;Hello world&quot;; ← semicolons return 
+std says that it is from standard library cout is function
+String literals must be in “”
+numbers dont need to be
+variable names dont need to be in “”
+
+concatenation
+int number =23
+std::cout &lt;&lt; “The number is”&quot;&lt;&lt;number
+ cout does not insert newline us /n or &lt;&lt;endl
+
+</rich_text>
+				<rich_text weight="heavy">Formating prints</rich_text>
+				<rich_text>
+ there are some standard formats like /n for newline or /t for tab
+ 
+ there is also iomanip that allows you to do more powerfull manipulations 
+ 
+</rich_text>
+				<rich_text scale="h2" weight="heavy"> </rich_text>
+				<rich_text weight="heavy">Printing to a file</rich_text>
+				<rich_text>
+ include fstream library
+ - Include the &lt;fstream&gt; library 
+ - Create a stream (input, output, both)
+      - ofstream myfile; (for writing to a file)
+      - ifstream myfile; (for reading a file)
+      - fstream myfile; (for reading and writing a file)
+ - Open the file  myfile.open(“filename”);
+ - Write or read the file
+ - Close the file myfile.close();
+ </rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Printing to file" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588696942.6" ts_lastsave="1588696953.47" unique_id="38">
+					<rich_text>include fstream library
+ - Include the &lt;fstream&gt; library 
+ - Create a stream (input, output, both)
+      - ofstream myfile; (for writing to a file)
+      - ifstream myfile; (for reading a file)
+      - fstream myfile; (for reading and writing a file)
+ - Open the file  myfile.open(“filename”);
+ - Write or read the file
+ - Close the file myfile.close();</rich_text>
+				</node>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Printing to console" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588696936.13" ts_lastsave="1588698116.76" unique_id="37">
+				<rich_text foreground="#ffff00000000" scale="h2" weight="heavy">Printing to the console</rich_text>
+				<rich_text>
+#include &lt;iostream&gt;
+std::cout &lt;&lt;&quot;Hello world&quot;; ← semicolons return 
+std says that it is from standard library cout is function
+String literals must be in “”
+numbers dont need to be
+variable names dont need to be in “”
+
+concatenation
+int number =23
+std::cout &lt;&lt; “The number is”&quot;&lt;&lt;number
+ cout does not insert newline us /n or &lt;&lt;endl
+
+</rich_text>
+				<rich_text weight="heavy">Formating prints</rich_text>
+				<rich_text>
+ there are some standard formats like /n for newline or /t for tab
+ 
+ there is also iomanip that allows you to do more powerfull manipulations </rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="iomanip" prog_lang="cpp" readonly="False" tags="" ts_creation="1588694875.61" ts_lastsave="1588694876.7" unique_id="29">
+					<rich_text> #include &lt;iomanip&gt;
+
+std::cout&lt;&lt;&quot;\n\nThe text without any formating\n&quot;;
+std::cout&lt;&lt;&quot;Ints&quot;&lt;&lt;&quot;Floats&quot;&lt;&lt;&quot;Doubles&quot;&lt;&lt; &quot;\n&quot;;
+std::cout&lt;&lt;&quot;\nThe text with setw(15)\n&quot;;
+std::cout&lt;&lt;&quot;Ints&quot;&lt;&lt;std::setw(15)&lt;&lt;&quot;Floats&quot;&lt;&lt;std::setw(15)&lt;&lt;&quot;Doubles&quot;&lt;&lt; &quot;\n&quot;;
+std::cout&lt;&lt;&quot;\n\nThe text with tabs\n&quot;;
+std::cout&lt;&lt;&quot;Ints\t&quot;&lt;&lt;&quot;Floats\t&quot;&lt;&lt;&quot;Doubles&quot;&lt;&lt; &quot;\n&quot;;</rich_text>
+				</node>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Input" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588696839.66" ts_lastsave="1588697832.84" unique_id="36">
+				<rich_text> 
+ 
+</rich_text>
+				<rich_text scale="h2">Input From Console</rich_text>
+				<rich_text>
+ use std::cin
+ </rich_text>
+				<rich_text foreground="#ffff00000000">Warning</rich_text>
+				<rich_text> strings are weird if you put a space they will think its the end of the line 
+ use std::getline(std::cin,variablename);
+use stringstream to convert from string to another datatype
+the include is #include&lt;sstream&gt;</rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="sstream" prog_lang="cpp" readonly="False" tags="" ts_creation="1588696742.75" ts_lastsave="1588696753.39" unique_id="31">
+					<rich_text> #include &lt;iostream&gt;
+ #include &lt;string&gt;
+ #include &lt;sstream&gt;
+
+ int main ()
+ {
+   std::string stringLength;
+   float inches = 0;
+   float yardage = 0;
+
+   std::cout &lt;&lt; &quot;Enter number of inches: &quot;;
+   std::getline (std::cin,stringLength);
+   std::stringstream(stringLength) &gt;&gt; inches;
+   std::cout&lt;&lt;&quot;You entered &quot;&lt;&lt;inches&lt;&lt;&quot;\n&quot;;
+   yardage = inches/36;
+   std::cout &lt;&lt; &quot;Yardage is &quot; &lt;&lt; yardage;
+   return 0;
+ }</rich_text>
+				</node>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Comments" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588692268.3" ts_lastsave="1588692926.74" unique_id="19">
+			<rich_text>Comments 
+single line 
+// like this 
+multi line /* 
+like 
+this
+*/</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="constants" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588694421.14" ts_lastsave="1588694425.71" unique_id="24">
+			<rich_text>Like other programing languages constants cant be changed
+const int outputGoal =100;</rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="enum" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588694515.03" ts_lastsave="1588694586.43" unique_id="25">
+				<rich_text>Type of constant
+enum type_name { value1,value2,value3,} object_names
+used for months
+ enum MONTH {Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec};</rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Headderfiles" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588695767.15" ts_lastsave="1588695768.77" unique_id="30">
+			<rich_text>Similar to c  but instead of .h it should be .hpp (basicly says headerfile plus plus)</rich_text>
+		</node>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Sytle" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588691231.19" ts_lastsave="1588691960.0" unique_id="11">
+		<rich_text></rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Naming" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588691249.74" ts_lastsave="1588692900.33" unique_id="12">
+			<rich_text>Namespace   under_scored
+Class names CammelCase
+function    cammelCase]
+Paramaters/locats under_scored 
+Member variables under_score_trailing_    # prefix is reserved so use trailing underscore to 
+Enums CamelCase
+Globasl g_under_score  # Why are you ussing globas
+Constants UPPER_CASE
+File name  Match case of class name in file
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="HeaderFiles" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588691473.77" ts_lastsave="1588691481.14" unique_id="13">
+			<rich_text>Use #ifdef to protect against multiple inclusions
+#ifndef msr_airsm_Myheadder_hpp  
+#define msr_airsm_Myheadder_hpp  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Brackets" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588691558.88" ts_lastsave="1588691740.47" unique_id="14">
+			<rich_text>
+
+Inside function or method body place curly bracket on same line. Outside that the Namespace, Class and methods levels use separate
+line. This is called </rich_text>
+			<rich_text link="webs https://en.wikipedia.org/wiki/Indent_style#K.26R_style">K&amp;R style</rich_text>
+			<rich_text>  and its variants are widely used in C++ vs other styles which are more  popular in other languages. Notice
+that curlies are not required if you have single statement, but  complex statements are easier to keep correct with the braces.
+
+
+
+Example 
+</rich_text>
+			<rich_text justification="left"></rich_text>
+			<encoded_png char_offset="412">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</encoded_png>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Const and References" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588691938.08" ts_lastsave="1588693465.46" unique_id="15">
+			<rich_text>
+
+Religiously review all non-scalar parameters you declare to be  candidate for const and references. If you are coming from languages  such as C#/Java/Python, the most often mistake you would make is to pass parameters by value  instead of const T&amp;; Especially most of the strings,
+vectors and maps you want to pass as const T&amp;; (if they are readonly) or T&amp; (if they are writable). Also add const suffix to methods as much as possible.
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Overiding" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588691960.0" ts_lastsave="1588691960.49" unique_id="16">
+			<rich_text>
+</rich_text>
+			<rich_text scale="h2">Overriding</rich_text>
+			<rich_text>
+When overriding virtual method, use override suffix.
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Pointers" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588691968.14" ts_lastsave="1588693405.92" unique_id="17">
+			<rich_text>
+
+This is really about memory management.  A simulator has much  performance critical code, so we try and avoid overloading the memory  manager with lots of calls to new/delete.  We also want to avoid too much  copying of things on the stack, so we pass things by reference
+whenever  possible. But when the object really needs to live longer than the call stack you  often need to allocate that object on the heap, and so you have a pointer.  Now, if management of the lifetime  of that object is going to be tricky we recommend using C++ 11 smart pointers.
+But smart pointers do have a cost, so don’t use them blindly everywhere.   For private code where performance is paramount, raw pointers can be used.  Raw pointers  are also often needed when interfacing with legacy systems that only accept pointer types, for example, sockets
+API.  But we try to  wrap those legacy interfaces as much as possible and avoid that style of programming from leaking into  the larger code base.
+
+
+Religiously check if you can use const everywhere, for example, const float * const xP. Avoid using prefix or suffix to indicate pointer
+types in variable names, i.e. use my_obj instead of myobj_ptr except in cases where it might make sense to differentiate variables better,
+for example, int mynum = 5; int* mynum_ptr = mynum;
+</rich_text>
+		</node>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Namespace" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588692926.74" ts_lastsave="1588693329.24" unique_id="22">
+		<rich_text>Way to avoid having to  use 
+std::cout
+probably other namespaces aswell
+example code
+
+#include &lt;iostream&gt;
+ using namespace std;
+ int main()
+ {
+ cout  &lt;&lt; “Hello World”;
+ return 0;
+ }
+</rich_text>
+		<rich_text scale="h1" weight="heavy">This is controversial because in large programs could be confusing </rich_text>
+	</node>
+</cherrytree>
