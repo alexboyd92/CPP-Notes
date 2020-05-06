@@ -118,10 +118,9 @@ std::cout &lt;&lt; “The number is”&quot;&lt;&lt;number
  - Write or read the file
  - Close the file myfile.close();</rich_text>
 				</node>
-			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Printing to console" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588696936.13" ts_lastsave="1588698116.76" unique_id="37">
-				<rich_text foreground="#ffff00000000" scale="h2" weight="heavy">Printing to the console</rich_text>
-				<rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Printing to console" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588696936.13" ts_lastsave="1588699199.07" unique_id="37">
+					<rich_text foreground="#ffff00000000" scale="h2" weight="heavy">Printing to the console</rich_text>
+					<rich_text>
 #include &lt;iostream&gt;
 std::cout &lt;&lt;&quot;Hello world&quot;; ← semicolons return 
 std says that it is from standard library cout is function
@@ -135,13 +134,13 @@ std::cout &lt;&lt; “The number is”&quot;&lt;&lt;number
  cout does not insert newline us /n or &lt;&lt;endl
 
 </rich_text>
-				<rich_text weight="heavy">Formating prints</rich_text>
-				<rich_text>
+					<rich_text weight="heavy">Formating prints</rich_text>
+					<rich_text>
  there are some standard formats like /n for newline or /t for tab
  
  there is also iomanip that allows you to do more powerfull manipulations </rich_text>
-				<node custom_icon_id="0" foreground="" is_bold="False" name="iomanip" prog_lang="cpp" readonly="False" tags="" ts_creation="1588694875.61" ts_lastsave="1588694876.7" unique_id="29">
-					<rich_text> #include &lt;iomanip&gt;
+					<node custom_icon_id="0" foreground="" is_bold="False" name="iomanip" prog_lang="cpp" readonly="False" tags="" ts_creation="1588694875.61" ts_lastsave="1588694876.7" unique_id="29">
+						<rich_text> #include &lt;iomanip&gt;
 
 std::cout&lt;&lt;&quot;\n\nThe text without any formating\n&quot;;
 std::cout&lt;&lt;&quot;Ints&quot;&lt;&lt;&quot;Floats&quot;&lt;&lt;&quot;Doubles&quot;&lt;&lt; &quot;\n&quot;;
@@ -149,6 +148,7 @@ std::cout&lt;&lt;&quot;\nThe text with setw(15)\n&quot;;
 std::cout&lt;&lt;&quot;Ints&quot;&lt;&lt;std::setw(15)&lt;&lt;&quot;Floats&quot;&lt;&lt;std::setw(15)&lt;&lt;&quot;Doubles&quot;&lt;&lt; &quot;\n&quot;;
 std::cout&lt;&lt;&quot;\n\nThe text with tabs\n&quot;;
 std::cout&lt;&lt;&quot;Ints\t&quot;&lt;&lt;&quot;Floats\t&quot;&lt;&lt;&quot;Doubles&quot;&lt;&lt; &quot;\n&quot;;</rich_text>
+					</node>
 				</node>
 			</node>
 			<node custom_icon_id="0" foreground="" is_bold="False" name="Input" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588696839.66" ts_lastsave="1588697832.84" unique_id="36">

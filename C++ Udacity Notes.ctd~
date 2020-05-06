@@ -3,6 +3,11 @@
 	<bookmarks list="6"/>
 	<node custom_icon_id="0" foreground="" is_bold="False" name="Intro" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588689397.15" ts_lastsave="1588690775.61" unique_id="1">
 		<rich_text></rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="What is C++?" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588689492.6" ts_lastsave="1588789384.35" unique_id="2">
+			<rich_text>Self deffinition: C with objects
+Instructior deffinition: Programing language primary used for  programs that are demand speed and performance
+</rich_text>
+		</node>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Why" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588689610.9" ts_lastsave="1588690090.08" unique_id="3">
 			<rich_text>Used in variety of feilds 
 Data science 
@@ -12,11 +17,6 @@ Can be used high level or low level
 </rich_text>
 			<node custom_icon_id="0" foreground="" is_bold="False" name="Where" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588689685.69" ts_lastsave="1588689710.13" unique_id="4">
 				<rich_text>Cameras,telecsopes,networking,games,finace,cars
-</rich_text>
-			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="What is C++?" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588689492.6" ts_lastsave="1588698119.39" unique_id="2">
-				<rich_text>Self deffinition: C with objects
-Instructior deffinition: Programing language primary used for  programs that are demand speed and performance
 </rich_text>
 			</node>
 		</node>
@@ -151,7 +151,7 @@ std::cout&lt;&lt;&quot;Ints\t&quot;&lt;&lt;&quot;Floats\t&quot;&lt;&lt;&quot;Dou
 					</node>
 				</node>
 			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Input" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588696839.66" ts_lastsave="1588697832.84" unique_id="36">
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Input" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588696839.66" ts_lastsave="1588789439.96" unique_id="36">
 				<rich_text> 
  
 </rich_text>

@@ -151,7 +151,7 @@ std::cout&lt;&lt;&quot;Ints\t&quot;&lt;&lt;&quot;Floats\t&quot;&lt;&lt;&quot;Dou
 					</node>
 				</node>
 			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Input" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588696839.66" ts_lastsave="1588697832.84" unique_id="36">
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Input" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588696839.66" ts_lastsave="1588699259.92" unique_id="36">
 				<rich_text> 
  
 </rich_text>
@@ -163,7 +163,7 @@ std::cout&lt;&lt;&quot;Ints\t&quot;&lt;&lt;&quot;Floats\t&quot;&lt;&lt;&quot;Dou
 				<rich_text> strings are weird if you put a space they will think its the end of the line 
  use std::getline(std::cin,variablename);
 use stringstream to convert from string to another datatype
-the include is #include&lt;sstream&gt;</rich_text>
+the include is #include&lt;sstream&gt;t</rich_text>
 				<node custom_icon_id="0" foreground="" is_bold="False" name="sstream" prog_lang="cpp" readonly="False" tags="" ts_creation="1588696742.75" ts_lastsave="1588696753.39" unique_id="31">
 					<rich_text> #include &lt;iostream&gt;
  #include &lt;string&gt;
